@@ -1,12 +1,13 @@
 # Manual Basico de Markdown.
 
-![Logo_markdown](/img/Logo_Markdown.png)
+![Logo_markdown](/T1/img/Logo_Markdown.png)
 
+---
 ## ¿Que es markdown?
 
 Markdown es un lenguaje de marcas que facilita la aplicacion de formato a un texto empleando una serie de caracteres de una forma especial .En principio, fue pensado para elaborar textos cuyo destino iba a ser la web , con mas rapidez y sencillez que si estuvieramos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle , tamien podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino. 
 
-
+---
 ## Sintaxis:
 
 En markdown se utilizan una serie de combinaciones de caracteres ordenados de una manera especifica para poder expresar cosas a destacar.
@@ -65,7 +66,7 @@ En markdown se utilizan una serie de combinaciones de caracteres ordenados de un
         |   4*2     |   8           |
         |     7*2   |  14           |
 
-- Estas tablas se aplican segun esta sintaxis encontramos un ejemplo de su visualizacion en la [guia de git](git.md).
+- Estas tablas se aplican segun esta sintaxis , son utiles a la hora de organizar el contenido .
 
 
         Ejemplo nº8:
@@ -87,3 +88,9 @@ En markdown se utilizan una serie de combinaciones de caracteres ordenados de un
         ```
 
 - Este comando se utiliza para expresar un fragmento de codigo segun el lenguaje que nosotros querramos , igualmente encontraremos un ejemplo grafico en la [guia de git](git.md).
+
+        Ejemplo nº11:
+        Divisores
+        ---
+
+- Este comando se utiliza a la hora de dividir el espacio a traves de una barra, es un cambio puramente estetico.

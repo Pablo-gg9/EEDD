@@ -16,10 +16,39 @@ Git permite saber a traves de los commits que se ha cambiado,quien lo ha cambiad
 
 Git utiliza varios comandos especificos para diversas funciones:
 
-- ** git commit ** :Este comando nos permite guardar el progreso entre nuestro directorio de trabajo y nuestro repositorio local.
-- ** git init < directorio> ** : Transforma el directorio actual en un repositorio de git
-- ** git clone <URL> ** :Permite descargar un repositorio remoto
-- ** git status ** : Muestra que archivos  se han modificado 
-- ** git diff ** :Muestra los cambios dentro de los archivos
-- ** git push ** :Sube los cambios del repositorio local al repositorio remoto.
-- ** git pull ** :Descarga que los cambios que haya en el repositorio remoto
+- **git commit -m "mensaje"** :Este comando nos permite guardar el progreso entre nuestro directorio de trabajo y nuestro repositorio local.
+- **git init < directorio>**: Transforma el directorio actual en un repositorio de git
+- **git clone < direccion >** :Permite descargar un repositorio remoto
+- **git status** : Muestra que archivos  se han modificado 
+- **git diff** :Muestra los cambios dentro de los archivos.
+- **git push** :Sube los cambios del repositorio local al repositorio remoto.
+- **git pull** :Descarga que los cambios que haya en el repositorio remoto.
+- **git rm**: Borra un archivo a elegir.
+
+- **git(iniciar sesion)
+
+#### Ejemplos:
+
+![git-commit](/T1/img/git%20commit.PNG)
+
+
+---
+
+
+![git-push](/T1/img/git%20push.PNG)
+
+---
+
+![git-status](/T1/img/git%20status.PNG)
+
+----
+
+![git-add](/T1/img/Git%20add.PNG)
+
+
+---
+
+```git
+git add * (para añadir todos los cambios realizados)
+git rm <archivo>(Para borrar algun archivo o carpeta)
+```
