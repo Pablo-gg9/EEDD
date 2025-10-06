@@ -5,7 +5,7 @@
 ---
 ## ¿Que es markdown?
 
-Markdown es un lenguaje de marcas que facilita la aplicacion de formato a un texto empleando una serie de caracteres de una forma especial .En principio, fue pensado para elaborar textos cuyo destino iba a ser la web , con mas rapidez y sencillez que si estuvieramos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle , tamien podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino. 
+Markdown es un lenguaje de marcas que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial .En principio, fue pensado para elaborar textos cuyo destino iba a ser la web , con mas rapidez y sencillez que si estuvieramos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle , tamien podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino. 
 
 ---
 ## Sintaxis:
@@ -13,10 +13,10 @@ Markdown es un lenguaje de marcas que facilita la aplicacion de formato a un tex
 En markdown se utilizan una serie de combinaciones de caracteres ordenados de una manera especifica para poder expresar cosas a destacar.
 
         Ejemplo nº1:
-        Heading/titulo
+        Heading/Título
         #TITULO
 
-- Se utiliza el simbolo "#" para expresar un titulo dejando seguido de este un espacio para remarcar el nombre del titulo. Esta expresion tambien da lugar a varios subtitulos añadiendo varios "#" dependiendo de la importancia de cada uno.  
+- Se utiliza el simbolo "#" para expresar un título dejando seguido de este un espacio para remarcar el nombre del título. Esta expresion tambien da lugar a varios subtitulos añadiendo varios "#" dependiendo de la importancia de cada uno.  
 
         Ejemplo nº2:
         Negrita/bold text.
@@ -40,7 +40,7 @@ En markdown se utilizan una serie de combinaciones de caracteres ordenados de un
         Cajas de comentarios:
             Textos.
 
-- Como ya llevamos viendo durante toda la guia para sobreponer una caja de comentarios, debemos tabular almenos una vez para que la caja aparazca, cabe recalcar que dentro de ella solo se visualizara el texto integro y no se aplicara la sintaxis habitual de Markdown.
+- Como ya llevamos viendo durante toda la guia para sobreponer una caja de comentarios, debemos tabular al menos una vez para que la caja aparazca, cabe recalcar que dentro de ella solo se visualizara el texto integro y no se aplicara la sintaxis habitual de Markdown.
 
         Ejemplo nº5:
         Listas organizadas.

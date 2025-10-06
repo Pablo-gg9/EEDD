@@ -25,7 +25,7 @@ Git utiliza varios comandos especificos para diversas funciones:
 - **git pull** :Descarga que los cambios que haya en el repositorio remoto.
 - **git rm**: Borra un archivo a elegir.
 
-- **git(iniciar sesion)
+
 
 #### Ejemplos:
 
@@ -45,10 +45,15 @@ Git utiliza varios comandos especificos para diversas funciones:
 
 ![git-add](/T1/img/Git%20add.PNG)
 
-
 ---
 
-```git
-git add * (para añadir todos los cambios realizados)
-git rm <archivo>(Para borrar algun archivo o carpeta)
+![git-pull](/T1/img/pull.PNG)
+
+### Configurar Git:
+
+Para poder configurar Git necesitamos hacer uso en la terminal de **Git Bash** de los siguientes comandos:
+
+```bash
+git config --global user.name "Nombre del Usuario de Github"
+git config --global user.email "Gmail del usuario de Github@dominio.ejemplo.com"
 ```
