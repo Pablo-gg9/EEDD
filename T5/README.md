@@ -40,26 +40,6 @@
 2. **Medico**: Gestiona a los pacientes y sus datos.
 3. **Paciente**: Gestiona caracteristicas de la cita y elige el area.
 
-### Actor 1: Administrativo CU :
-
-
-
-
-### Actor 2: Medico CU:
-
-
-### Actor 3: Paciente CU :
-
-- **RF1.1** Ver citas.
-- **RF1.2** Añadir citas.
-- **RF1.3** Borrar cita.
-- **RF1.4** Modificar cita.
-- **RF1.5** Cambiar hora cita.
-- **RF1.6** Cambiar area sanitaria.
-- **RF1.7** Mostrar disponibilidad medica.
-- **RF3.1** Ver lista de medicos.
-
-
 
 ### Tabla de casos de uso:
 
