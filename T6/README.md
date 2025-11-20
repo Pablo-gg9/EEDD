@@ -17,3 +17,8 @@ Los metodos de la clase persona son:
 
 Un objeto de la clase persona seria el siguente Persona persona1 =new Persona();
 
+## Diagrama de clases
+
+
+
+!(Ejemplo de diagramas)[Ejemplo_Diagrama_clases]
