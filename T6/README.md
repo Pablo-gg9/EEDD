@@ -19,6 +19,10 @@ Un objeto de la clase persona seria el siguente Persona persona1 =new Persona();
 
 ## Diagrama de clases
 
+Ejemplo de diagrama
 
+!(Ejemplo de diagramas)[Ejemplo_Diagrama_clases.png]
 
-!(Ejemplo de diagramas)[Ejemplo_Diagrama_clases]
+Ejemplo Ingenieria inversa
+
+!(Ejemplo ingenieria inversa)[Relacion.png]
