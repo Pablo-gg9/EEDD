@@ -33,10 +33,6 @@ public class TiendaApp {
             System.out.println("-------------------");
         }
 
-        for (int i = 0; i < pedidos.size(); i++) {
-
-        
-        }
 
         if (total > precioDescuento) {
             total = total - (total * descuento);
