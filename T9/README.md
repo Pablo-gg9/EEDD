@@ -43,3 +43,9 @@
 - (f) : Crear constantes
 
 - (g) : Cambiar arraylist por List
+
+
+
+## REFACTORS
+
+En el segundo refactor no cambio el uso de casting porque despues voy a tener que volver a cambiarlo , no tiene sentido y es muy complicado quitarlo sin hacer mas complejo el codigo

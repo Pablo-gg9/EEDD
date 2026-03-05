@@ -1,12 +1,13 @@
 package modelo;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TiendaApp {
 
     public static void main(String[] args) {
 
-        ArrayList pedidos = new ArrayList();
+        List<String> pedidos = new ArrayList();
 
         pedidos.add("Juan,Portatil,900");
         pedidos.add("Juan,Raton,20");
@@ -15,11 +16,10 @@ public class TiendaApp {
         double total = 0;
         final double precioDescuento=500;
         final double descuento =0.15;
-
-        for (int i = 0; i < pedidos.size(); i++) {
-
-            String linea = (String) pedidos.get(i);
-            String[] partes = linea.split(",");
+        
+        for(String iteracion : pedidos ){
+                
+            String[] partes = iteracion.split(",");
 
             String nombre = partes[0];
             String producto = partes[1];
@@ -31,6 +31,11 @@ public class TiendaApp {
             System.out.println("Producto: " + producto);
             System.out.println("Precio: " + precio);
             System.out.println("-------------------");
+        }
+
+        for (int i = 0; i < pedidos.size(); i++) {
+
+        
         }
 
         if (total > precioDescuento) {
