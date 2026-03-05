@@ -49,3 +49,10 @@
 ## REFACTORS
 
 En el segundo refactor no cambio el uso de casting porque despues voy a tener que volver a cambiarlo , no tiene sentido y es muy complicado quitarlo sin hacer mas complejo el codigo
+
+
+## Diseño
+
+Las relaciones entre las clases estan claras, un cliente puede hacer 1 o muchos pedidos , al igual que un pedido puede incluir 1 o muchos prouctos
+
+![Diagrama de clases ](imgs/Diagrama_Tienda.drawio.png)
