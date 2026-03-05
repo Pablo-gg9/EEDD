@@ -38,4 +38,20 @@ public class Pedidos {
         this.productos = productos;
     }
 
+    public double calcularPrecioTotal() {
+        double total = 0;
+        for (Productos producto : productos) {
+
+            total += producto.getPrecio();
+        }
+        return total;
+    }
+
+    public double calcularPrecioDescuento() {
+        double total = calcularPrecioTotal();
+        if (total > MINIMO_DESCUENTO) {
+            total -= (total * DESCUENTO_PORCENTAJE);
+        }
+        return total;
+    }
 }

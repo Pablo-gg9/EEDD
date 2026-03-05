@@ -5,52 +5,30 @@ import java.util.List;
 
 public class TiendaApp {
 
-    public static void mostrarPedido(List<String> pedidos) {
+    public static void mostrarPedido(Pedidos pedidoNuevo) {
 
-        for (String iteracion : pedidos) {
-            String[] partes = iteracion.split(",");
-            String nombre = partes[0];
-            String producto = partes[1];
-            double precio = Double.parseDouble(partes[2]);
-            System.out.println("Cliente: " + nombre);
-            System.out.println("Producto: " + producto);
-            System.out.println("Precio: " + precio);
+        for (String pedido : pedidoNuevo) {
+            System.out.println("Cliente: " + pedidoNuevo.getCliente().getNombre());
+            System.out.println("Producto: " + pedidoNuevo.getProductos().getNombre());
+            System.out.println("Precio: " + pedidoNuevo.getProductos().getPrecio());
             System.out.println("-------------------");
 
         }
     }
 
-    public static double calcularPrecio(List<String> pedidos) {
-        double total = 0.0;
-        for (String iteracion : pedidos) {
-            String[] partes = iteracion.split(",");
-            double precio = Double.parseDouble(partes[2]);
-            total += precio;
-        }
-        return total;
-    }
-
-    public static double aplicarDescuento(double total, double precioDescuento, double descuento) {
-        if (total > precioDescuento) {
-            total -= (total * descuento);
-        }
-
-        return total;
-    }
-
     public static void main(String[] args) {
 
-        List<String> pedidos = new ArrayList();
+        Cliente cliente = new Cliente("Juan");
+        List<Producto> productos = new ArrayList<>();
+        productos.add(new Producto("Portatil", 900));
+        productos.add(new Producto("Raton", 20));
+        productos.add(new Producto("Teclado", 50));
+        Pedido pedido = new Pedido(cliente, productos);
 
-        pedidos.add("Juan,Portatil,900");
-        pedidos.add("Juan,Raton,20");
-        pedidos.add("Juan,Teclado,50");
+        mostrarPedido(pedido);
 
-        final double precioDescuento = 500;
-        final double descuento = 0.15;
+        double precioFinal = pedido.calcularPrecioDescuento();
+        System.out.println("El precio dinal es : " + precioFinal);
 
-        mostrarPedido(pedidos);
-
-        System.out.println("TOTAL FINAL: " + aplicarDescuento(calcularPrecio(pedidos), precioDescuento, descuento));
     }
 }
