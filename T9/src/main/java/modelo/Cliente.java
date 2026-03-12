@@ -5,21 +5,34 @@
 package com.mycompany.mavenproject1;
 
 /**
- *
- * @author Alumno
+ * Clase que gestiona clientes 
+ * @version 1.0
+ * @author Pablo 
  */
 public class Cliente {
 
     private String nombre;
-
+    
+    /**
+     * Constructor por parametros de la clase
+     * @param nombre Nombre del cliente
+     */
     public Cliente(String nombre) {
         this.nombre = nombre;
     }
 
+    /**
+     * Getter del atributo nombre
+     * @return Devuelve el valor de nombre
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Setter del atributo nombre
+     * @param nombre Establece un valor para el atributo nombre
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
