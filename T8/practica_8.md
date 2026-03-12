@@ -47,7 +47,7 @@ bloqueado? Nada , se tiene que introducir el pin de admin para salir de dicho es
 
 2. Diagrama de estados
 
-![Diagrama de estados](/imgs/Diagrama_Estados.png.png)
+![Diagrama de estados](./imgs/Diagrama_Estados.png.png)
 
 
 ## Diseño de test
